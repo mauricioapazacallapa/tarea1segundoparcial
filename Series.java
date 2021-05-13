@@ -57,7 +57,7 @@ public class Series
         System.out.println("posicion de padovan es : ");
             for(int x=0; x<p; x++){
                 if(x==p-1){
-                    System.out.println("<" +padovan[x]+ ">");
+                    System.out.println(padovan[x]);
                 }else{
                     System.out.println(padovan[x]+"");
                 }
